@@ -83,3 +83,16 @@ console.log(myVar);   // 1
 a();
 
 //**************** Asynchronus (More than one at a time) *****************/
+
+for(var i=0;i<=5;i++){
+    i=i+1;
+    console.log(i); // 1,3,5,6
+}
+console.log(i); //undefined
+
+
+for(let i=0;i<=5;i++){
+    console.log(i);  //0,2,4,6
+    i=i+1;
+}
+console.log(i);  // undefined
